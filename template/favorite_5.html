@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{/static/style.css">
+    <title>My favorite sports </title>
+
+</head>
+<body>
+    <h1>My favorite sports </h1>
+    <ul>
+        {% for sport in favorite_5%}
+        <li><a href="{{201902231054392852063.jpg}}">{{'sport'}}</a></li>
+        <li><a href="{{template/skysports-kaka-ac-milan-brazil_4125796.jpg}}">{{'sport'}}</a></li>
+        <li><a href="{{/template/16_ronaldinho_1.jpg}}">{{'sport'}}</a></li>
+        <li><a href="{{/template/international-champions-cup-2015-paris-20150722-030209-185.jpg}}">{{'sport'}}</a></li>
+        <li><a href="{{/template/4HFqJusxWiMoo9YMtk7xKroF6e2ts2g9dLuFhTuSAGdAVKwoBBL5fdCYvDhcZLmV1yEvNesyKFnaQTjc3pSSQfMQ9VFU7vWubhwZQva4Ce6w1hqipwhKEgDzNwnTmrVx35wbyLfEFbygpu3t9NFvKdPJ9355bc6ouEG.jpg}}">{{'sport'}}</a></li>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>
