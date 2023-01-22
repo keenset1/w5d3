@@ -1,5 +1,5 @@
 from flask import render_template
-from app import app
+from hw import app
 
 @app.route("/favorite-5")
 def favorite_5():
